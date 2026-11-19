@@ -1,0 +1,82 @@
+# Data
+
+`nykaa_public_metrics.csv` lists every company figure used in the Week 1 plan, with the public filing and
+the slide or section it comes from. No internal or non-public data is used.
+
+## Sources
+
+| ID | Source |
+|---|---|
+| S1 | FSN E-Commerce Ventures Limited (2026). Investor Presentation: quarter and full year ended March 31, 2026. Filed with NSE and BSE on 21 May 2026. https://www.nykaa.com/investor-relations/lp |
+| S2 | FSN E-Commerce Ventures Limited (2026). Business Responsibility and Sustainability Report FY2025-26 (part of the Integrated Report 2025-26). https://www.nykaa.com/media/wysiwyg/uiTools/2026-8/BRSR-FY2025-26.pdf |
+
+Slide numbers are those printed on the presentation. FY26 is the financial year ended 31 March 2026.
+
+## Columns
+
+| Column | Meaning |
+|---|---|
+| `id` | Key used in `src/plan_data.py` |
+| `metric` | What the figure measures |
+| `value` | The figure as published |
+| `unit` | Unit (Rs crore, million, stores, ...) |
+| `period` | Financial year |
+| `source` | S1 or S2 |
+| `location` | Slide or section in the source |
+
+## Figures
+
+| id | Metric | Value | Unit | Period | Source |
+|---|---|---|---|---|---|
+| `rev_fy23` | Revenue from operations | 5144 | Rs crore | FY23 | S1, slide 37 |
+| `rev_fy24` | Revenue from operations | 6386 | Rs crore | FY24 | S1, slide 37 |
+| `rev_fy25` | Revenue from operations | 7950 | Rs crore | FY25 | S1, slide 38 |
+| `rev_fy26` | Revenue from operations | 10022 | Rs crore | FY26 | S1, slide 38 |
+| `gmv_fy25` | Gross merchandise value (consolidated) | 15604 | Rs crore | FY25 | S1, slide 40 |
+| `gmv_fy26` | Gross merchandise value (consolidated) | 19963 | Rs crore | FY26 | S1, slide 40 |
+| `gmv_beauty_fy23` | Beauty GMV | 7058 | Rs crore | FY23 | S1, slide 9 |
+| `gmv_beauty_fy24` | Beauty GMV | 9055 | Rs crore | FY24 | S1, slide 9 |
+| `gmv_beauty_fy25` | Beauty GMV | 11775 | Rs crore | FY25 | S1, slide 40 |
+| `gmv_beauty_fy26` | Beauty GMV | 14954 | Rs crore | FY26 | S1, slide 40 |
+| `gmv_fashion_fy25` | Fashion GMV | 3804 | Rs crore | FY25 | S1, slide 40 |
+| `gmv_fashion_fy26` | Fashion GMV | 4954 | Rs crore | FY26 | S1, slide 40 |
+| `ebitda_fy26` | EBITDA | 752 | Rs crore | FY26 | S1, slide 38 |
+| `ebitda_margin_fy26` | EBITDA margin (% of revenue from operations) | 7.5 | % | FY26 | S1, slide 38 |
+| `pat_fy26` | Profit after tax | 204 | Rs crore | FY26 | S1, slide 38 |
+| `fulfil_fy25` | Fulfilment expense | 742 | Rs crore | FY25 | S1, slide 38 |
+| `fulfil_fy26` | Fulfilment expense | 959 | Rs crore | FY26 | S1, slide 38 |
+| `fulfil_pct_fy25` | Fulfilment expense (% of revenue from operations) | 9.3 | % | FY25 | S1, slide 38 |
+| `fulfil_pct_fy26` | Fulfilment expense (% of revenue from operations) | 9.6 | % | FY26 | S1, slide 38 |
+| `mkt_fy26` | Marketing and selling & distribution expense | 1537 | Rs crore | FY26 | S1, slide 38 |
+| `mkt_pct_fy26` | Marketing and S&D expense (% of revenue from operations) | 15.3 | % | FY26 | S1, slide 38 |
+| `orders_beauty_fy25` | Beauty orders (online and stores) | 54.5 | million | FY25 | S1, slide 51 |
+| `orders_beauty_fy26` | Beauty orders (online and stores) | 65.8 | million | FY26 | S1, slide 51 |
+| `orders_fashion_fy25` | Fashion orders | 7.6 | million | FY25 | S1, slide 51 |
+| `orders_fashion_fy26` | Fashion orders | 10.1 | million | FY26 | S1, slide 51 |
+| `aov_beauty_fy25` | Beauty average order value | 2021 | Rs | FY25 | S1, slide 51 |
+| `aov_beauty_fy26` | Beauty average order value | 2068 | Rs | FY26 | S1, slide 51 |
+| `autc_beauty_fy25` | Beauty annual unique transacting customers | 15.8 | million | FY25 | S1, slide 51 |
+| `autc_beauty_fy26` | Beauty annual unique transacting customers | 19.7 | million | FY26 | S1, slide 51 |
+| `visits_beauty_fy25` | Beauty visits (websites and apps) | 1482 | million | FY25 | S1, slide 51 |
+| `visits_beauty_fy26` | Beauty visits (websites and apps) | 1894 | million | FY26 | S1, slide 51 |
+| `mauv_beauty_fy26` | Beauty monthly average unique visitors | 44.7 | million | FY26 | S1, slide 51 |
+| `stores_fy22` | Physical stores | 104 | stores | FY22 | S1, slide 16 |
+| `stores_fy23` | Physical stores | 145 | stores | FY23 | S1, slide 16 |
+| `stores_fy24` | Physical stores | 187 | stores | FY24 | S1, slide 16 |
+| `stores_fy25` | Physical stores | 237 | stores | FY25 | S1, slide 16 |
+| `stores_fy26` | Physical stores | 313 | stores | FY26 | S1, slide 16 |
+| `new_stores_fy26` | Stores added during the year | 76 | stores | FY26 | S1, slide 16 |
+| `cities_fy26` | Cities with Nykaa stores | 99 | cities | FY26 | S1, slide 16 |
+| `new_cities_fy26` | New cities added during the year | 20 | cities | FY26 | S1, slide 16 |
+| `retail_space_fy26` | Retail space | 3.1 | lakh sq ft | FY26 | S1, slide 16 |
+| `hon_gmv_fy26` | House of Nykaa (owned brands) GMV | 3176 | Rs crore | FY26 | S1, slide 20 |
+| `capex_fy26` | Capital expenditure (stores; warehouses; technology) | 145 | Rs crore | FY26 | S1, slide 43 |
+| `locations_fy26` | Operating locations in India | 75 | locations | FY26 | S2, Section A III.18 |
+| `warehouses_fy26` | Warehouses | 31 | warehouses | FY26 | S2, Section A III.18 |
+| `rapid_stores_fy26` | Rapid stores | 37 | rapid stores | FY26 | S2, Section A III.18 |
+| `employees_perm_fy26` | Permanent employees | 2028 | people | FY26 | S2, Section A IV.20 |
+| `employees_other_fy26` | Other than permanent employees | 893 | people | FY26 | S2, Section A IV.20 |
+| `workers_other_fy26` | Other than permanent workers | 8567 | people | FY26 | S2, Section A IV.20 |
+| `complaints_fy25` | Consumer complaints received | 6933 | complaints | FY25 | S2, Principle 9 EI 3 |
+| `complaints_fy26` | Consumer complaints received | 5879 | complaints | FY26 | S2, Principle 9 EI 3 |
+| `breaches_fy26` | Data breaches | 0 | instances | FY26 | S2, Principle 9 EI 7 |
