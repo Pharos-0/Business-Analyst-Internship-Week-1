@@ -419,13 +419,13 @@ def ba_cost():
     return planned, planned * (1 + CONTINGENCY)
 
 
-# Stakeholder time requested over the 28 weeks (hours per person) - checked against what each group can give.
+# Stakeholder time requested over the 28 weeks (hours for the most involved person) - checked against availability.
 TIME_REQUESTS = [
     ("Executive sponsor", "Kick-off 2 h; 14 steering meetings x 1 h; 5 gate reviews x 1.5 h", 23.5, "About 1 h a week"),
     ("Product owner", "Daily collaboration with the BA team, about 4 h a week", 112, "Assigned to CCR"),
     ("Head of Retail Operations", "14 steering meetings x 1 h; 4 workshops x 3 h; 5 gate reviews x 1.5 h", 33.5, "About 1.2 h a week"),
-    ("Store manager (each of 20)", "Briefing 1 h; workshop 3 h (6 managers); UAT 4 h (6 managers); training 2 h", 7.1, "Outside peak trading hours"),
-    ("Beauty advisor (each, pilot stores)", "Observation 2 h (8 advisors); UAT 4 h (8 advisors); training 2 h", 3.6, "Planned with store rosters"),
+    ("Store manager (each of 20)", "Briefing 1 h; workshop 3 h (6 managers); UAT 4 h (6 managers); training 2 h", 10, "Outside peak trading hours"),
+    ("Beauty advisor (each, pilot stores)", "Observation 2 h (8 advisors); UAT 4 h (8 advisors); training 2 h", 8, "Planned with store rosters"),
     ("Head of Supply Chain", "14 steering meetings x 1 h; 2 workshops x 3 h; 2 reviews x 2 h", 24, "About 0.9 h a week"),
     ("Engineering leads (each of 4)", "Interface sessions 6 h; design reviews 8 h; refinement 16 h", 30, "Inside sprint ceremonies"),
     ("Security and privacy lead", "Workshop 3 h; 2 reviews x 2 h; 2 gate reviews x 1.5 h", 10, "Booked in advance"),
