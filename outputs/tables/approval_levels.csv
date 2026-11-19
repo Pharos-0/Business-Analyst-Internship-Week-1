@@ -1,0 +1,5 @@
+Document status,Review,Approval
+Working drafts (0.x),Peer review by the other BA,No sign-off
+Gate packages (1.0),"Review by the owners named in the RACI, then a gate review meeting",Accountable owner and sponsor
+Minor revisions (1.x),Product owner review,Product owner
+Major revisions (2.0),Full gate-style review,Change control board

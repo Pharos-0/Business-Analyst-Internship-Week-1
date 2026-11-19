@@ -1,0 +1,5 @@
+Quadrant,Stakeholders,Approach
+"Manage closely (high power, high interest)","SH01, SH02, SH03, SH06, SH11, SH19",Fortnightly steering committee; decisions taken at gates; early sight of every package; one-to-one check-ins with the lead BA.
+"Keep satisfied (high power, lower interest)","SH10, SH12, SH13, SH16","Short, targeted reviews of the decisions they own (attribution, privacy, policy wording, brand terms); no routine meetings."
+"Keep informed and involved (lower power, high interest)","SH04, SH05, SH07, SH08, SH09, SH14, SH15, SH18","Workshops, observation, sprint reviews and UAT; a store champion network; monthly store bulletin; customer research."
+"Monitor (lower power, lower interest)",SH17,"Briefings at Gates 1, 2 and 3; consulted on the interfaces that affect them."

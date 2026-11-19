@@ -1,0 +1,11 @@
+ID,Risk,Likelihood (1-5),Impact (1-5),Score,Rating,Response,Owner
+R01,Store managers and advisors cannot attend workshops and UAT during busy trading periods,4,3,12,High,Book sessions outside peak hours; use store champions; record short demos,Lead BA
+R02,Store stock data is less accurate than needed for click & collect,3,5,15,Critical,Measure accuracy in discovery (A06); add a stock-check step before confirming orders,Supply chain head
+R03,"Integration across app, order management, point of sale and logistics takes longer than planned",3,4,12,High,Specify interfaces by Gate 2; agree release windows early; spike risky interfaces first,Engineering leads
+R04,Privacy requirements found late delay the pilot,2,5,10,High,Privacy lead in requirements workshops; privacy checklist at Gates 2 and 3,Privacy lead
+R05,Online and store teams disagree on revenue attribution,4,3,12,High,Finance-led workshop in week 8; options paper; decision at Gate 2,Finance controller
+R06,"Scope grows (for example, Fashion or exchanges) before the pilot",3,3,9,Medium,Out-of-scope list; change control; park ideas in the phase 2 backlog,Product owner
+R07,Key subject matter expert leaves or moves,2,3,6,Medium,Record decisions and models on the wiki; name a deputy for each theme,Project manager
+R08,Some brands' selective distribution terms limit store collection of their products,2,3,6,Medium,Check brand terms in discovery; exclude products by rule if needed,Sponsor
+R09,Logistics partner interface cannot cancel reverse pickups automatically,3,2,6,Medium,Manual cancellation fallback for the pilot,Supply chain head
+R10,Customers do not notice or trust the new options,3,4,12,High,"Clear app messages, store signage and launch offers; measure in pilot surveys",Marketing lead

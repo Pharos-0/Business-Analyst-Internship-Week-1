@@ -1,0 +1,8 @@
+Item,Format,Example
+Business requirement,CCR-BR-nnn,CCR-BR-004 Customers can collect prepaid orders in store
+Functional requirement / user story,CCR-FR-nnn,CCR-FR-031 Show store availability on product page
+Non-functional requirement,CCR-NFR-nnn,CCR-NFR-007 Pickup code check under 2 seconds
+Business rule,CCR-RULE-nn,CCR-RULE-03 Orders are held for 5 days
+Transition requirement,CCR-TR-nn,CCR-TR-02 Train advisors before launch
+Change request,CCR-CR-nnn,CCR-CR-012 Add exchanges to store returns
+Document,CCR_<type>_v<major.minor>,CCR_BRD_v1.0

@@ -1,0 +1,8 @@
+Measure,Target,Source,When
+Gate packages approved at the first review,80% or more,Decision log,Each gate
+Requirements with acceptance criteria and a traced objective before baseline,100%,Backlog report,Gate 2
+UAT defects caused by missing or wrong requirements,10% of defects or fewer,Defect log root cause,UAT
+Change impact assessments completed within 3 working days,90% or more,Change log,Monthly
+"Stakeholder satisfaction with BA work (pulse survey, 1-5)",4.0 or more,Survey after each gate,Each gate
+BA effort compared with plan,Within 10%,Timesheets against the activity plan,Fortnightly
+Requirements changed after baseline (volatility),15% or fewer,Backlog history,Monthly

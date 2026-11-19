@@ -1,0 +1,9 @@
+Decision,Decides,Consulted,Escalation
+Priority of requirements within the agreed scope,Product owner,"Lead BA, Engineering leads, Retail Ops",Steering committee
+"Change to scope, budget or a gate date",Steering committee (change control board),"Lead BA impact analysis, project manager",Executive sponsor
+Store process and staffing rules,Head of Retail Operations,"Store managers, Lead BA",Steering committee
+"Return, refund and collection policies",Head of Customer Care with Legal,"Category teams, Finance",Executive sponsor
+Use of customer personal data,Security and data protection lead,"Legal, Product owner",Executive sponsor
+Revenue attribution between online and stores,Finance controller,"Retail Ops, Sponsor",Executive sponsor
+Technical design trade-offs,Engineering leads,"Product owner, Lead BA",Steering committee
+Changes to this BA plan,Lead BA,"Project manager, Product owner (sponsor informed)",Steering committee

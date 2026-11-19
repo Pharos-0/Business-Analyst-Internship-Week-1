@@ -1,0 +1,13 @@
+ID,Communication,Audience,Purpose and content,Format and channel,Timing,Owner,Weeks
+CM01,Kick-off and BA plan walkthrough,All core stakeholders,"Objectives, scope, roles, plan, ways of working",Workshop with slides; recording on the project wiki,Week 2,Lead BA,2
+CM02,Weekly BA status note,"Core team, sponsor","Progress against plan, decisions, risks, changes, next steps","One-page note on the wiki, link posted in the team channel",Every Friday,Lead BA,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28"
+CM03,Steering committee pack,Sponsor and steering committee,"Status, decisions needed, risks, change requests",Slides plus decision log,Fortnightly,Lead BA with PM,"2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28"
+CM04,Gate review,Accountable owners per RACI,Approve the gate package or record conditions,Meeting with package circulated 3 working days before,"Weeks 2, 6, 11, 21, 28",Lead BA,"2, 6, 11, 21, 28"
+CM05,Requirements review sessions,Subject matter experts per theme,Walk through requirements and rules; collect corrections,Workshop or walkthrough with review comments in the wiki,Weekly in weeks 8-11,BA,"8, 9, 10, 11"
+CM06,Sprint review demonstrations,"Product owner, store champions, Customer Care",Show working features; confirm acceptance,"Live demo, recorded",End of each sprint,Product owner with BA,"13, 15, 17, 19"
+CM07,Store network bulletin,Store managers and advisors in pilot stores,"What is changing, when, training, how to give feedback",Short bulletin on the store app and team channel,Monthly,BA with Retail Ops,"4, 8, 12, 16, 20, 24, 28"
+CM08,Partner briefings,Brand and logistics partners,Changes that affect them; interface and process needs,Email briefing and call,"Weeks 6, 11, 21",Lead BA with partner managers,"6, 11, 21"
+CM09,Customer research,Panel of online and store customers,Needs and pain points; pilot satisfaction,Online survey and interviews,Weeks 4-5 and 25,BA,"4, 5, 25"
+CM10,Pilot readiness and training briefings,"Pilot store teams, Customer Care","Process, scripts, escalation contacts",Training sessions and quick-reference guide,Weeks 20-21,BA with Retail Ops,"20, 21"
+CM11,Hypercare stand-ups,"Pilot stores, Engineering, Customer Care","Issues, fixes, decisions during launch",15-minute video call,Daily in weeks 22-24,BA,"22, 23, 24"
+CM12,Escalation notice,Sponsor and decision owner,"Issue, impact, options and a recommendation",Email and call,Within 24 hours of an issue,Lead BA,As needed

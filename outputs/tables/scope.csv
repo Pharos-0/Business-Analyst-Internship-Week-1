@@ -1,0 +1,15 @@
+Scope,Item,Description
+In scope,Store stock visibility,Show store-level availability of Beauty products on the app and website for pilot stores.
+In scope,Click & collect,Prepaid online orders reserved from store stock and collected in store with a one-time pickup code; status notifications; unclaimed-order handling.
+In scope,Return to store,"Return of eligible online Beauty orders at any pilot store, with refund initiation at the counter and stock re-entry or disposal."
+In scope,Assisted ordering (endless aisle),Store staff order out-of-stock items for home delivery from the store app.
+In scope,Store staff tools,"Changes to the store app and point of sale for handover, returns and assisted ordering."
+In scope,Policies and rules,"Collection window, unclaimed orders, return eligibility, refunds, and revenue attribution between online and store results."
+In scope,Measurement,"KPI definitions, pilot dashboard and benefits tracking."
+Out of scope,Fashion vertical and Nykaa Fashion app (candidate for a later phase),
+Out of scope,Superstore by Nykaa (eB2B) and House of Nykaa brand websites,
+Out of scope,Rapid delivery (Nykaa Now) network design,
+Out of scope,Orders placed on third-party marketplaces,
+Out of scope,Cash on delivery for click & collect orders during the pilot,
+Out of scope,"Replacement of the warehouse management, payment gateway or loyalty platforms",
+Out of scope,International (GCC) operations and new store openings,

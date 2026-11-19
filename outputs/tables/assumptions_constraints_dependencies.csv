@@ -1,0 +1,14 @@
+ID,Type,Statement
+A1,Assumption,Store stock for each product is available from the point-of-sale and inventory systems at least every 15 minutes; its accuracy is confirmed in discovery.
+A2,Assumption,Each pilot store can give space to a pickup shelf and a returns bin.
+A3,Assumption,"A product owner, two delivery squads and a QA lead are assigned for the full 28 weeks."
+A4,Assumption,"Return eligibility follows the current online policy for Beauty products (for example, unopened items only), to be confirmed with Legal and Category teams."
+C1,Constraint,The pilot must avoid major sale events and the October-November festive peak.
+C2,Constraint,"Core DPDP Rules obligations apply from 13 May 2027 (project week 19), before pilot launch."
+C3,Constraint,"The BA team is a lead business analyst, a business analyst and a part-time process analyst from Retail Operations (weeks 3-11)."
+C4,Constraint,Store system changes can only be released in the monthly store-IT release window.
+D1,Dependency,Inventory synchronisation interface from the point-of-sale system (Engineering).
+D2,Dependency,Order management system changes for store-reserved orders (Engineering).
+D3,Dependency,Logistics partner interface to cancel reverse pickups when items are returned in store.
+D4,Dependency,Finance decision on how online and store results share CCR revenue.
+D5,Dependency,Store operating procedures and training updated by Retail Operations.

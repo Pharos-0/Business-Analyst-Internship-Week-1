@@ -1,0 +1,6 @@
+Gate,Package,Contents,Audience,Format,Approver
+Gate 0 (week 2),Plan and scope,BA plan; scope statement; context diagram; stakeholder register; RACI,"Sponsor, steering committee",Slide summary plus wiki pages,Executive sponsor
+Gate 1 (week 6),Current state and options,Process maps; pain points; baseline KPIs; interface inventory; compliance obligations; options paper,"Steering committee, process owners",Wiki pages; options paper,Executive sponsor
+Gate 2 (week 11),Requirements baseline,Business requirements document; prioritised backlog; business rules; non-functional and privacy requirements; KPI definitions; traceability matrix,"Product owner, Engineering, Retail Ops, Legal, Privacy, Finance",Requirements document (PDF export) plus backlog baseline,Product owner and sponsor
+Gate 3 (week 21),Transition and readiness,UAT results; open defects; transition requirements; training materials; readiness checklist,"Steering committee, Retail Ops, Customer Care",Readiness pack,Head of Retail Operations and product owner
+Gate 5 (week 28),Pilot evaluation,KPI results against O1-O5; customer feedback; issues and fixes; lessons learned; scale-up recommendation,"Sponsor, steering committee",Evaluation report,Executive sponsor

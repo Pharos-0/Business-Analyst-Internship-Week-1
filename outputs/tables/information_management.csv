@@ -1,0 +1,8 @@
+Information,Where it is kept,Owner,Version control
+"BA plan, packages, decision log",Project wiki space 'CCR - Business Analysis',Lead BA,"0.x drafts, 1.0 at gate, 1.x minor"
+Requirements and user stories,"Backlog tool (one item per requirement, linked to epics)",BA,Item history; baseline label at Gate 2
+Process models,"Modelling tool, exported to the wiki",Process analyst,Version in file name
+Traceability matrix,"Backlog tool links, exported to the wiki at each gate",BA,Snapshot per gate
+Workshop and interview notes,"Wiki, one page per session",BA,Final within 2 working days
+Change requests,Change log in the backlog tool,Lead BA,Status workflow
+Customer research data,Research repository with restricted access,BA,Anonymised; raw data deleted after 90 days

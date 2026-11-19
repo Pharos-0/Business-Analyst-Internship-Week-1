@@ -1,0 +1,20 @@
+ID,Stakeholder,Group,Interest in CCR,Power (1-10),Interest (1-10),Attitude,Engagement quadrant
+SH01,"Executive sponsor (Business Head, Beauty)",Leadership,"Business case, pilot results, brand partner relationships",10,8,Supportive,Manage closely
+SH02,"Product owner, omnichannel",Technology,"Backlog value, scope and release dates",8,10,Supportive,Manage closely
+SH03,Head of Retail Operations,Retail,"Store workload, space, store P&L credit",9,9,"Supportive, cautious",Manage closely
+SH04,Store managers (20 pilot stores),Retail,"Staff time, targets, handover process",5,9,Mixed,Keep informed and involved
+SH05,Store beauty advisors (pilot stores),Retail,"Ease of use, training, incentives",3,8,Neutral,Keep informed and involved
+SH06,Head of Supply Chain and Fulfilment,Operations,"Stock allocation, returns flow, replenishment",8,7,Neutral,Manage closely
+SH07,Warehouse and rapid store leads,Operations,"Return consolidation, transfers to stores",4,6,Neutral,Keep informed and involved
+SH08,Head of Customer Care (grievance officer),Service,"Contact volumes, refund timelines, complaints",5,8,Supportive,Keep informed and involved
+SH09,Marketing and CRM lead,Marketing,"Launch messages, app notifications, offers",5,6,Supportive,Keep informed and involved
+SH10,Finance controller,Finance,"Revenue attribution, refunds, tax on returns",8,5,Sceptical,Keep satisfied
+SH11,"Engineering leads (app, OMS, POS, inventory)",Technology,"Feasibility, integration effort, release windows",7,8,Neutral,Manage closely
+SH12,Information security and data protection lead,Risk,"DPDP compliance, identity checks, data minimisation",7,5,Neutral,Keep satisfied
+SH13,Legal and compliance,Risk,"Consumer law, policy wording, complaint timelines",7,4,Neutral,Keep satisfied
+SH14,QA and test lead,Technology,"Testable requirements, UAT planning",4,7,Supportive,Keep informed and involved
+SH15,Business intelligence team,Technology,KPI definitions and data feeds,3,6,Supportive,Keep informed and involved
+SH16,Brand partners (selected Beauty brands),External,"Brand presentation, selective distribution terms",6,4,Neutral,Keep satisfied
+SH17,Logistics partners,External,Changes in reverse pickup volumes,5,3,Neutral,Monitor
+SH18,Customers (online and store),External,"Convenience, speed of refunds, trust",5,7,Not yet known,Keep informed and involved
+SH19,Project manager,Delivery,"Schedule, dependencies, budget",7,9,Supportive,Manage closely

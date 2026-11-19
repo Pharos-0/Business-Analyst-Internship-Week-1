@@ -1,0 +1,29 @@
+ID,Phase,Activity,Start week,End week,Start date (Monday),End week starts (Monday),Effort (person-days),Owner,Techniques,Outputs
+A01,P0,"Confirm business need, objectives and scope",1,2,2027-01-04,2027-01-11,4.0,Lead BA,Document analysis; interviews; scope modelling,Scope statement; context diagram
+A02,P0,Identify and analyse stakeholders,1,2,2027-01-04,2027-01-11,3.0,BA,"Stakeholder list, map and personas",Stakeholder register; power-interest grid; RACI
+A03,P0,"Plan BA approach, activities, governance and information",1,2,2027-01-04,2027-01-11,5.0,Lead BA,Estimation; planning workshop,BA plan v1.0
+A04,P0,Kick-off workshop and BA plan walkthrough,2,2,2027-01-11,2027-01-11,1.5,Lead BA,Workshop,Agreed ways of working; Gate 0 sign-off
+A05,P1,"Map current order, store sale and return processes",3,6,2027-01-18,2027-02-08,10.0,Process analyst,Observation in 4 stores and 1 warehouse; process modelling (BPMN),Current-state process maps; pain-point log
+A06,P1,"Analyse order, return and stock data; set KPI baselines",3,6,2027-01-18,2027-02-08,6.0,BA,Data analysis; metrics and KPIs,Baseline KPI pack
+A07,P1,Customer research: survey and 12 interviews,3,6,2027-01-18,2027-02-08,6.0,BA,Survey; interviews,Customer needs and pain points
+A08,P1,Analyse systems and interfaces,3,6,2027-01-18,2027-02-08,6.0,Lead BA,Interface analysis; data flow diagrams,Interface inventory; data flows
+A09,P1,Review policies and compliance obligations,3,4,2027-01-18,2027-01-25,3.0,Lead BA,Document analysis; interviews with Legal and Privacy,Policy and compliance requirements
+A10,P1,Gap analysis and future-state options; Gate 1 package,5,6,2027-02-01,2027-02-08,5.0,Lead BA,Gap analysis; decision analysis,Options paper; current-state package
+A11,P2,Requirements workshops on four themes,7,9,2027-02-15,2027-03-01,9.0,Lead BA,Workshops; prototyping (wireframes),Workshop outputs; agreed journeys
+A12,P2,Define business rules and policy decisions,7,10,2027-02-15,2027-03-08,5.0,Lead BA,Business rules analysis; decision modelling,Business rules catalogue; decision log
+A13,P2,Write business and solution requirements and user stories,7,11,2027-02-15,2027-03-15,14.0,BA,User stories; acceptance criteria; use cases,Business requirements document; product backlog
+A14,P2,Specify non-functional requirements,8,9,2027-02-22,2027-03-01,3.0,BA,Non-functional requirements analysis,"Performance, security, privacy and accessibility requirements"
+A15,P2,"Define data, reporting and KPI requirements",8,10,2027-02-22,2027-03-08,4.0,Process analyst,Data modelling; data dictionary,KPI definitions; report specifications
+A16,P2,Prioritise requirements and plan releases,10,11,2027-03-08,2027-03-15,3.0,Lead BA,MoSCoW; backlog management,Prioritised backlog; release plan
+A17,P2,"Review, validate and baseline requirements; Gate 2 package",10,11,2027-03-08,2027-03-15,5.0,Lead BA,Reviews; walkthroughs; traceability,Requirements baseline v1.0; traceability matrix
+A18,P3,Refine backlog and support four sprints,12,19,2027-03-22,2027-05-10,26.0,BA,Backlog refinement; acceptance criteria,Ready stories for each sprint
+A19,P3,Assess change requests (impact analysis),12,25,2027-03-22,2027-06-21,6.0,Lead BA,Impact analysis; traceability,Change impact assessments
+A20,P3,"Clarify requirements, review designs, join sprint reviews",12,19,2027-03-22,2027-05-10,8.0,Lead BA,Reviews; demonstrations,Design review notes; accepted stories
+A21,P4,Prepare UAT scenarios and test data with QA,16,18,2027-04-19,2027-05-03,5.0,BA,Acceptance and evaluation criteria,UAT scenarios traced to requirements
+A22,P4,Facilitate UAT with stores and customer care; triage defects,20,21,2027-05-17,2027-05-24,8.0,Lead BA,Workshops; defect triage,UAT results; sign-off
+A23,P4,Define transition requirements; Gate 3 package,19,21,2027-05-10,2027-05-24,6.0,BA,Transition requirements; training needs analysis,Readiness checklist; training needs
+A24,P5,Pilot hypercare: issue log and daily stand-ups,22,24,2027-05-31,2027-06-14,8.0,BA,Issue tracking; root cause analysis,Issue log; fix backlog
+A25,P5,Measure pilot KPIs against targets,23,28,2027-06-07,2027-07-12,7.0,BA,Metrics and KPIs; survey,Pilot KPI tracker
+A26,P5,Evaluate the solution and recommend scale-up; Gate 5 package,27,28,2027-07-05,2027-07-12,5.0,Lead BA,Solution evaluation; lessons learned,Pilot evaluation report
+A27,P6,Stakeholder communication and status reporting,1,28,2027-01-04,2027-07-12,14.0,Lead BA,Status reporting,Weekly status notes; steering committee packs
+A28,P6,Monitor BA performance and update this plan,1,28,2027-01-04,2027-07-12,4.0,Lead BA,Metrics; retrospectives,BA performance report; plan updates
